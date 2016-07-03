@@ -16,18 +16,20 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.Links.TableConstants.LinksTableConstants;
+
 @Entity
-@Table(name="links")
+@Table(name= LinksTableConstants.TABLE_NAME)
 public class LinksBean {
     @Id
     @GeneratedValue
-    @Column(name="id")
+    @Column(name=LinksTableConstants.ID)
     private Integer id;
-    @Column(name="Name")
+    @Column(name=LinksTableConstants.NAME)
     private String name;
-    @Column(name="Link")
+    @Column(name=LinksTableConstants.LINK)
     private String links;
-    @Column(name="Link_Type")
+    @Column(name=LinksTableConstants.LINK_TYPE)
     private String linkType;
 
     public Integer getId() {
