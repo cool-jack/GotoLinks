@@ -1,0 +1,31 @@
+body {
+	background: url("../img/background.jpg") no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: red;
+}
+
+button {
+	border: none;
+	border-radius: 2px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, .5);
+	cursor: pointer;
+	color: #FFFFFF;
+	background-color: #D14334;
+	
+	
+}
+submit {
+	border: none;
+	border-radius: 2px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, .5);
+	cursor: pointer;
+	color: #FFFFFF;
+	background-color: #D14334;
+}
