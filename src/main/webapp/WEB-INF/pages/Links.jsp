@@ -17,6 +17,7 @@ function deleteHistory(){
 }
 </script>
 	<center>
+	<div class="header">
 		<h3 style="color: teal">
 			All Links
 			</h3>
@@ -29,9 +30,11 @@ function deleteHistory(){
 			<a href="addCategory">Add New Category</a>
 			<!--  a href="chrome://history/" onclick="chrome.tabs.create({url:'google.com'});">Delete History</a -->
 			<p id="pid"></p>
+			
 			<br>
-			<br>
-			 <a href="AddLinks"><b>Add New Link</b></a><br> <br>
+			 <a href="AddLinks"><b>Add New Link</b></a>
+			 </div><br> <br>
+			 <div class="content">
 			<c:if test="${!empty linksMap.linksList}">
 				<table border="0">
 
@@ -50,6 +53,7 @@ function deleteHistory(){
 				</table>
 
 			</c:if>
+			</div>
 	</center>
 </body>
 </html>

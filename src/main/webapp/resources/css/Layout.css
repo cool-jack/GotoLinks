@@ -29,3 +29,57 @@ submit {
 	color: #FFFFFF;
 	background-color: #D14334;
 }
+
+.header {
+	position: fixed;
+    margin-left: 15%;
+    top: 0;
+    width: 70%;
+    z-index: 2;
+    background-color: white;
+    border-bottom: thick;
+    
+  
+    
+}
+.content{ 
+    margin-top: 100px;
+}
+
+/*.header {
+	 width: 100%;
+    position: fixed;
+    top: 0;
+   border-bottom: threeddarkshadow;
+  color: white;
+}
+
+.content {
+	position: relative;
+	height: 100px;
+	
+}
+.outer {
+    position: relative;
+    height: 100px;
+}
+.outer .header {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    top: auto;
+}
+.content {
+  
+    margin-top: 100px;
+}
+*/
+
+
+
+
+
+
+
+
+
